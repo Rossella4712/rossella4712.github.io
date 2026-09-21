@@ -1,8 +1,12 @@
 ---
 title: "CV"
 ---
-
-
+<iframe 
+  src="/documents/CV_website_RossellaAnania.pdf"
+  width="120%"
+  height="1000px"
+  style="border: none;">
+</iframe>
 
 
 
