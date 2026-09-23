@@ -2,20 +2,28 @@ project:
   type: website
 
 website:
-  title: "Rossella Anania"
+  title: "Rossella Anania | Astrophysicist"
+  description: "Personal website of Rossella Anania, astrophysicist working on astronomy, star and planet formation, protoplanetary and debris disc evolution"
   navbar:
     background: '#e52b50'
+    search: true
     left:
       - href: index.qmd
         text: Home
-      - cv.qmd
-      - phd_thesis.qmd
-      - research.qmd
-      - interests.qmd
-
+      - href: cv.qmd
+        text: CV
+      - href: phd_thesis.qmd
+        text: PhD Thesis
+      - href: research.qmd
+        text: Research
+      - href: interests.qmd
+        text: Interests
 format:
   html:
     theme: darkly
     css: styles.css
     toc: true
+    include-in-header:
+      - text: |
+        <meta name="google-site-verification" content="Pryb_QcsjmsVjY6xUGTPBh5fM0MROK3X_Ter33VuGN0" />
 
