@@ -3,7 +3,9 @@ project:
 
 website:
   title: "Rossella Anania | Astrophysicist"
-  description: "Personal website of Rossella Anania, astrophysicist working on astronomy, star and planet formation, protoplanetary and debris disc evolution"
+  description: "Personal website of Rossella Anania, astrophysicist working on astronomy, star formation and planet formation, protoplanetary and debris disc evolution."
+  site-url: "https://rossella4712.github.io"
+
   navbar:
     background: '#e52b50'
     search: true
@@ -18,6 +20,7 @@ website:
         text: Research
       - href: interests.qmd
         text: Interests
+
 format:
   html:
     theme: darkly
@@ -25,5 +28,4 @@ format:
     toc: true
     include-in-header:
       - text: |
-        <meta name="google-site-verification" content="Pryb_QcsjmsVjY6xUGTPBh5fM0MROK3X_Ter33VuGN0" />
-
+          <meta name="google-site-verification" content="Pryb_QcsjmsVjY6xUGTPBh5fM0MROK3X_Ter33VuGN0" />
